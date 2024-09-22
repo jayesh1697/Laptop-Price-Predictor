@@ -5,8 +5,8 @@ import warnings
 warnings.filterwarnings('ignore', category=UserWarning, module='sklearn')
 
 # Import Model
-pipe = pickle.load(open('/Users/jayeshpatel/Documents/Jupyter Notebook/pipe.pkl', 'rb'))
-df = pickle.load(open('/Users/jayeshpatel/Documents/Jupyter Notebook/df.pkl','rb'))
+pipe = pickle.load(open('pipe.pkl', 'rb'))
+df = pickle.load(open('df.pkl','rb'))
 
 st.title('Laptop Price Predictor')
 
